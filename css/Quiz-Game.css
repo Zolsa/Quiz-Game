@@ -1,7 +1,16 @@
-
+body {
+	background-image: url('../images/maxresdefault.jpg');
+}
 
 #timer {
 	display: none;
+	text-align: center;
+	color: blue;
+	background-color: #BB8FCE;
+	padding: 1%;
+	border: 3px dashed blue;
+	font-size: 20px;
+
 }
 
 h1 {
@@ -17,25 +26,42 @@ h1 {
 	margin: auto;
 	width: 100%;
 	border: 3px dashed blue;
-	padding: 2% 20% 2% 20%;
+	padding: 2% 10% 2% 10%;
+	background-color: white;
 }
 
 #start {
 	margin: 0 40% 0 40%;
 	
-	border: 3px dashed blue;
-	padding: 2%;
+	border: 3px solid blue;
+	padding: 0%;
+	color: blue;
+	background-color: #BB8FCE;
 }
 
 .container {
 	margin: auto;
 	width: 100%;
-	
 	padding: 2%;
+
 }
 
-header {
+header, #endScreen {
+	text-align: center;
+	color: blue;
+	background-color: #BB8FCE;
+	padding: 1%;
+	border: 3px dashed blue;
+}
 
+#endScreen {
+	display: none;
+	font-size: 20px;
+}
+
+h3 {
+	margin: 0;
+	background-color: #D5D8DC;
 }
 
 

@@ -48,6 +48,7 @@ function endScreen() {
 	$("#questionBox").css("display", "none");
 	$("#start").css("display", "none");
 	$("#timer").css("display", "none");
+	$("#endScreen").css("display", "block");
 	$("#endScreen").html("You got " + correctAns + " correct and " + wrongAns + " wrong");
 }
 
